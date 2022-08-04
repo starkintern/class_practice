@@ -4,11 +4,14 @@
 
 # Using classes as blueprints to be used more than once
 
-# Classes are blueprints are for making instances of a class
+# Classes are blueprints that are for making instances of that class
 
-# Init and self automate and take away the process of manually entering user data
+# Init (inserted at beginning of first function inside of class),
+# and self (an argument used by functions inside classes) automate
+# and take away the process of manually entering user data
 
-# Methods == Functions, make it once, call it over and over
+# Methods == Functions, make it once, call it over and over,
+# remember you need (), else it will call a variable
 
 class Overton:
 
