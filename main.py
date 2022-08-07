@@ -23,7 +23,7 @@ if __name__ == "__main__":
             self.help = help
 
         def introduce_self(self):
-            print(f"Hello, my name is {self.first} and I help my family out by {self.helps_out}.")
+            print(f"Hello, my name is {self.first}.")
 
         def job(self):
             return f"Name: {self.first}. Employment: {self.career}"
@@ -38,5 +38,3 @@ if __name__ == "__main__":
     overton_4 = Overton("Ella", "6", "Big sister", "putting her plate in the sink and cleaning up her toys")
     overton_5 = Overton("Emily", "3", "Big sister", "putting her plate in the sink and cleaning up her toys")
     overton_6 = Overton("Parky", "0.11", "Learning to walk", "smiling and lifting our spirits")
-
-    print(overton_1.introduce_self())
